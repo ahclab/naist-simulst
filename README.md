@@ -10,20 +10,9 @@ The paper is available [here](https://aclanthology.org/2023.iwslt-1.31.pdf).
 ## Abstract
 This paper describes NAIST’s submission to the IWSLT 2023 Simultaneous Speech Translation task: English-to-{German, Japanese, Chinese} speech-to-text translation and English-to-Japanese speech-to-speech translation. Our speech-to-text system uses an end-to-end multilingual speech translation model based on large-scale pre-trained speech and text models. We add Inter-connections into the model to incorporate the outputs from intermediate layers of the pre-trained speech model and augment prefix-to-prefix text data using Bilingual Prefix Alignment to enhance the simultaneity of the offline speech translation model. Our speech-to-speech system employs an incremental text-to-speech module that consists of a Japanese pronuncia- tion estimation model, an acoustic model, and a neural vocoder.
 
-# Todo
-- [ ] `/ahc/work3/sst-team/IWSLT2023/shared`以下のモデル・辞書等を公開用サーバーにアップロード
-- [ ] `en-{de,ja,zh}/data-bin/config.yaml`内の絶対パス書き換え
-- [ ] `/ahc/work/sst-team/IWSLT2023/submission`以下のDocker image等を公開用サーバーにアップロード
-
 # Setup
 ```
-git clone git@github.com:ahclab/iwslt-2023.git
-cd iwslt-2023
-
-# add submodules (SimulEval, fairseq)
-git submodule update --init
-
-# install requirements
+git clone --recursive git@github.com:ahclab/naist-simulst.git
 pip install -r  requirements.txt
 ```
 
@@ -287,4 +276,4 @@ Follow the `readme.md` to reproduce the results of the system paper.
 # Others
 The repository contains several other implementations:
 - [EDAtt](https://arxiv.org/pdf/2212.07850.pdf) and [ALIGNATT](https://arxiv.org/pdf/2305.11408.pdf) policies
-- [Morpheme-based TTS](scripts/simulst/agents/v1.1.0/s2s_la_2_morpheme.py), [Accent-based TTS](scripts/simulst/agents/v1.1.0/s2s_la_3_accent.py), [Transformer TTS](https://github.com/ahclab/iwslt-2023/blob/main/scripts/simulst/agents/v1.1.0/s2s_la_4_transformer.py)
+- [Morpheme-based TTS](scripts/simulst/agents/v1.1.0/s2s_la_2_morpheme.py), [Accent-based TTS](scripts/simulst/agents/v1.1.0/s2s_la_3_accent.py)
