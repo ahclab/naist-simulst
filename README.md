@@ -16,18 +16,19 @@ git clone --recursive git@github.com:ahclab/naist-simulst.git
 pip install -r  requirements.txt
 ```
 
-## Download models and data (tmp)
-Download the files required for execution from the links below:
-- SimulS2T En-De: [en-de.tar.gz](https://drive.google.com/file/d/1C3C_3CWQvE-fJ3d5A2-90WTHOslXl-ei/view?usp=sharing)
-- SimulS2T En-Ja: [en-ja.tar.gz](https://drive.google.com/file/d/1mrMzsJazKtOwiy0_nh9wAG6gPIZklbcE/view?usp=sharing)
-- SimulS2T En-Zh: [en-zh.tar.gz](https://drive.google.com/file/d/1lEgzOWPQNtk-bS7mAHmsTmw9lpK46xjV/view?usp=sharing)
-- SimulS2S En-Ja: [en-ja-tts.tar.gz](https://drive.google.com/file/d/1G1hKMeFWLvgvszPgTskBnElhrJv2bu2Z/view?usp=sharing)
-- MuST-C evaluation data: [evaldata.tar.gz](https://drive.google.com/file/d/1eK74e30pwtiEe8pTSQk8kKPJbgdj0IFf/view?usp=sharing)
+## ~~Download models and data (tmp)~~
+These models are currently not publicly available. Training instructions will be published instead.
+~~Download the files required for execution from the links below:~~
+- ~~SimulS2T En-De: [en-de.tar.gz](https://drive.google.com/file/d/1C3C_3CWQvE-fJ3d5A2-90WTHOslXl-ei/view?usp=sharing)~~
+- ~~SimulS2T En-Ja: [en-ja.tar.gz](https://drive.google.com/file/d/1mrMzsJazKtOwiy0_nh9wAG6gPIZklbcE/view?usp=sharing)~~
+- ~~SimulS2T En-Zh: [en-zh.tar.gz](https://drive.google.com/file/d/1lEgzOWPQNtk-bS7mAHmsTmw9lpK46xjV/view?usp=sharing)~~
+- ~~SimulS2S En-Ja: [en-ja-tts.tar.gz](https://drive.google.com/file/d/1G1hKMeFWLvgvszPgTskBnElhrJv2bu2Z/view?usp=sharing)~~
+- ~~MuST-C evaluation data: [evaldata.tar.gz](https://drive.google.com/file/d/1eK74e30pwtiEe8pTSQk8kKPJbgdj0IFf/view?usp=sharing)~~
 
-Before running inference, local paths in commands need to be replaced as follows:
-- Replace `/ahc/work3/sst-team/IWSLT2023/shared/en-*` with the path of unzipped `en-*.tar.gz`
-- Replace `/ahc/work3/sst-team/IWSLT2023/data/eval_data` with the path of unzipped `eval_data.tar.gz`
-- Replace `/ahc/work3/sst-team/IWSLT2023/shared/en-ja-tts` with the path of unzipped `en-ja-tts.tar.gz`
+~~Before running inference, local paths in commands need to be replaced as follows:~~
+- ~~Replace `/ahc/work3/sst-team/IWSLT2023/shared/en-*` with the path of unzipped `en-*.tar.gz`~~
+- ~~Replace `/ahc/work3/sst-team/IWSLT2023/data/eval_data` with the path of unzipped `eval_data.tar.gz`~~
+- ~~Replace `/ahc/work3/sst-team/IWSLT2023/shared/en-ja-tts` with the path of unzipped `en-ja-tts.tar.gz`~~
 
 # Inference
 ## [Private] Evaluation of SimulS2T En-De for MuST-C
