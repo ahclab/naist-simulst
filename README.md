@@ -23,7 +23,7 @@ Download the files required for execution from the links below:
 - SimulS2T En-De: [en-de.tar.gz](https://databox.naist.jp/s/9tmEgN6txHQ5JMc)
 - SimulS2T En-Ja: [en-ja.tar.gz](https://databox.naist.jp/s/tQo676r4QToMrS6)
 - SimulS2T En-Zh: [en-zh.tar.gz](https://databox.naist.jp/s/Npa97WsjiXcnLMK)
-- SimulS2S En-Ja: [en-ja-tts.tar.gz](https://databox.naist.jp/s/tQo676r4QToMrS6)
+- SimulS2S En-Ja: [en-ja-tts.tar.gz](https://databox.naist.jp/s/DNWSgjsXjtq9jmt)
 - MuST-C evaluation data: [evaldata.tar.gz](https://databox.naist.jp/s/wwgN6c5sraFpeE3)
 
 Before running inference, local paths in commands need to be replaced as follows:
